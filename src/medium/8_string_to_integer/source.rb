@@ -27,9 +27,10 @@ class MediumStringToInteger
   # @param {String} s
   # @return {Integer}
   def my_atoi(str)
-    first_whitespaces = true
     sign = '+'
     digits = ''
+    first_whitespaces = true
+    first_zero = true
     (0..(str.size - 1)).each do |i|
       if str[i] == ' ' && first_whitespaces
         next
@@ -41,7 +42,13 @@ class MediumStringToInteger
         next
       end
 
+      if str[i] == '0' && first_zero
+        first_whitespaces = false
+        next
+      end
+
       if digit?(str[i])
+        first_zero = false
         first_whitespaces = false
         digits += str[i]
         next
