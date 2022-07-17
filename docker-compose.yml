@@ -1,0 +1,14 @@
+version: "3.7"
+
+x-app-volumes: &app-volumes
+  - .:/app:cached
+  - ~/.bash_history:/root/.bash_history
+  - bundle_cache:/bundle_cache
+
+services:
+  app:
+    build: .
+    volumes: *app-volumes
+
+volumes:
+  bundle_cache:
