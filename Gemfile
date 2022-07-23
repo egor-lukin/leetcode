@@ -15,3 +15,5 @@ gem "nokogiri", "~> 1.13"
 gem "erb", "~> 2.2"
 
 gem "webmock", "~> 3.14"
+
+gem "graphql-client", "~> 0.18.0"
