@@ -1,7 +1,6 @@
 require 'byebug'
 
-# https://leetcode.com/problems/zigzag-conversion/
-class MediumZigZagConversion
+class ZigZagConvertion
 
   # @param {String} s
   # @param {Integer} num_rows

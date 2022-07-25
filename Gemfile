@@ -5,3 +5,5 @@ ruby '2.7.1'
 
 gem "minitest"
 gem "byebug"
+
+gem "erb", "~> 2.2"

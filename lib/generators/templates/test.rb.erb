@@ -1,0 +1,13 @@
+require 'minitest/autorun'
+require 'byebug'
+require_relative '../src/<%= source_file_name %>'
+
+class <%= test_class_name %> < Minitest::Test
+  def test_1
+    algorithm = <%= source_class_name %>.new
+    expected = 2
+    actual = algorithm.call 1
+
+    assert_equal expected, actual
+  end
+end

@@ -1,9 +1,10 @@
 require 'minitest/autorun'
-require_relative './source.rb'
+require 'byebug'
+require_relative '../src/string_to_integer.rb'
 
-class MediumStringToIntegerTest < Minitest::Test
+class StringToIntegerTest < Minitest::Test
   def test_1
-    algorithm = MediumStringToInteger.new
+    algorithm = StringToInteger.new
     expected = 42
     actual = algorithm.my_atoi "42"
 
@@ -11,7 +12,7 @@ class MediumStringToIntegerTest < Minitest::Test
   end
 
   def test_2
-    algorithm = MediumStringToInteger.new
+    algorithm = StringToInteger.new
     expected = -42
     actual = algorithm.my_atoi "   -42"
 
@@ -19,7 +20,7 @@ class MediumStringToIntegerTest < Minitest::Test
   end
 
   def test_3
-    algorithm = MediumStringToInteger.new
+    algorithm = StringToInteger.new
     expected = 4193
     actual = algorithm.my_atoi "4193 with words"
 
@@ -27,7 +28,7 @@ class MediumStringToIntegerTest < Minitest::Test
   end
 
   def test_4
-    algorithm = MediumStringToInteger.new
+    algorithm = StringToInteger.new
     expected = 0
     actual = algorithm.my_atoi "wrong word"
 
@@ -35,7 +36,7 @@ class MediumStringToIntegerTest < Minitest::Test
   end
 
   def test_5
-    algorithm = MediumStringToInteger.new
+    algorithm = StringToInteger.new
     expected = -2147483648
     actual = algorithm.my_atoi "   -2147483649"
 
@@ -43,7 +44,7 @@ class MediumStringToIntegerTest < Minitest::Test
   end
 
   def test_5
-    algorithm = MediumStringToInteger.new
+    algorithm = StringToInteger.new
     expected = 12345678
     actual = algorithm.my_atoi "  0000000000012345678"
 
