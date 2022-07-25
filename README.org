@@ -2,8 +2,20 @@
 My Profile - https://leetcode.com/lukin_egor/
 
 ## Commands
-rake problems:create["reverse integer"]
-rake problems:destroy["reverse integer"]
+- Create templates for problem
+  #+begin_src sh
+  rake problems:create["reverse integer"]
+  #+end_src
+
+- Remove templates for problem
+  #+begin_src sh
+  rake problems:destroy["reverse integer"]
+  #+end_src
+
+- Run tests
+  #+begin_src sh
+  rake test
+  #+end_src
 
 ## Problems
 | Name              | Leetcode Link                                                 | Repo Link                          | Level  |
