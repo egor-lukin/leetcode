@@ -1,7 +1,7 @@
 require 'byebug'
 
 # https://leetcode.com/problems/reverse-integer/
-class MediumReverseInteger
+class ReverseInteger
   MAX_NEGATIVE = 2147483648
   MAX_POSITIVE = 2147483647
 

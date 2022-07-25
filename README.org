@@ -1,2 +1,24 @@
 ## Leetcode
 My Profile - https://leetcode.com/lukin_egor/
+
+## Commands
+- Create templates for problem
+  #+begin_src sh
+  rake problems:create["reverse integer"]
+  #+end_src
+
+- Remove templates for problem
+  #+begin_src sh
+  rake problems:destroy["reverse integer"]
+  #+end_src
+
+- Run tests
+  #+begin_src sh
+  rake test
+  #+end_src
+
+## Problems
+| Name              | Leetcode Link                                                 | Repo Link                          | Level  |
+|-------------------+---------------------------------------------------------------+------------------------------------+--------|
+| Reverse Integer   | [link](https://leetcode.com/problems/reverse-integer/)        | [link](./src/reverse_integer.rb)   | Medium |
+| String To Integer | [link](https://leetcode.com/problems/string-to-integer-atoi/) | [link](./src/string_to_integer.rb) | Medium |

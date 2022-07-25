@@ -1,7 +1,6 @@
 require 'byebug'
 
-# https://leetcode.com/problems/string-to-integer-atoi/submissions/
-class MediumStringToInteger
+class StringToInteger
   DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
   MAX_NEGATIVE = '2147483648'
   MAX_POSITIVE = '2147483647'
