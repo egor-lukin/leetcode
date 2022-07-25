@@ -1,16 +1,9 @@
 * Leetcode Problems
 My Profile - https://leetcode.com/lukin_egor/
-
 ** Commands
-- Create templates for problem
-  ~rake problems:create["reverse integer"]~
-
-- Remove templates for problem
-  ~rake problems:destroy["reverse integer"]~
-
-- Run tests
-  ~rake test~
-
+- Create templates for problem: ~rake problems:create["reverse integer"]~
+- Remove templates for problem: ~rake problems:destroy["reverse integer"]~
+- Run tests: ~rake test~
 ** Problems
 | Name              | Leetcode Link | Repo Link | Level  |
 |-------------------+---------------+-----------+--------|
