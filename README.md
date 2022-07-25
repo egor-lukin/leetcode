@@ -8,4 +8,4 @@ rake problems:destroy["reverse integer"]
 ## Problems
 | Name            | Leetcode Link                                          | Repo Link                        | Level  |
 |-----------------|--------------------------------------------------------|----------------------------------|--------|
-| Reverse Integer | [link](https://leetcode.com/problems/reverse-integer/) | [link](./src/reverse_integer.rb) | Medium |
+| Reverse Integer | [link](https://leetcode.com/problems/reverse-integer/){:target="_blank"} | [link](./src/reverse_integer.rb){:target="_blank"} | Medium |
